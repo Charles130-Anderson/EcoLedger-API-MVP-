@@ -12,3 +12,7 @@ app = FastAPI(
 )
 
 app.include_router(credits.router)
+
+@app.get("/")
+def root():
+    return {"message": "Ecoledger is live!"}
