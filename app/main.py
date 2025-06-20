@@ -1,5 +1,9 @@
 from fastapi import FastAPI
-from .routes import credits
+from app.routes import credits
+from app.database import engine, Base
+
+# ✅ Register models before calling create_all()
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="EcoLedger MVP API",
