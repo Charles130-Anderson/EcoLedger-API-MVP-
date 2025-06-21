@@ -53,6 +53,7 @@ if not DATABASE_URL:
    * Name: `DATABASE_PUBLIC_URL`
    * Value: *(use the copied PostgreSQL URL)*
 5. Deploy the app.
+   
 Link to the API [Ecoledger](https://web-production-d2480.up.railway.app/docs)
 
 ![Ecoledger1](https://github.com/user-attachments/assets/dd3fc785-544b-42a0-bde4-3848157235fd)
