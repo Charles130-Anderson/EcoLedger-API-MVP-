@@ -9,7 +9,7 @@ A prototype API for managing carbon credit records.
 - Mock PolygonScan token verification (optional)
 
 ## 🛠 Setup
-````
+```
 git clone https://github.com/Charles130-Anderson/EcoLedger-API-MVP-.git
 cd ecoledger-api
 pip install -r requirements.txt
@@ -34,7 +34,7 @@ DATABASE_URL=your_database_url_here
 
 You can also update your code like this to support both:
 
-```python
+```
 import os
 
 DATABASE_URL = os.getenv("DATABASE_URL") or os.getenv("DATABASE_PUBLIC_URL")
@@ -50,7 +50,7 @@ if not DATABASE_URL:
 3. Provision a **PostgreSQL plugin** from Railway’s dashboard.
 4. Copy the connection URL and add it as an environment variable:
 
-   * Name: `DATABASE_URL`
+   * Name: `DATABASE_PUBLIC_URL`
    * Value: *(use the copied PostgreSQL URL)*
 5. Deploy the app.
 Link to the API [Ecoledger](https://web-production-d2480.up.railway.app/docs)
