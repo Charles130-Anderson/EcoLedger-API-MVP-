@@ -1,4 +1,3 @@
-````
 # EcoLedger MVP API v0.1
 
 A prototype API for managing carbon credit records.
@@ -10,13 +9,12 @@ A prototype API for managing carbon credit records.
 - Mock PolygonScan token verification (optional)
 
 ## 🛠 Setup
-
-```bash
+````
 git clone https://github.com/Charles130-Anderson/EcoLedger-API-MVP-.git
 cd ecoledger-api
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-````
+```
 
 ## ⚙️ Environment Configuration
 
@@ -56,6 +54,7 @@ if not DATABASE_URL:
    * Value: *(use the copied PostgreSQL URL)*
 5. Deploy the app.
 Link to the API [Ecoledger](https://web-production-d2480.up.railway.app/docs)
+
 ![Ecoledger1](https://github.com/user-attachments/assets/dd3fc785-544b-42a0-bde4-3848157235fd)
 
 
